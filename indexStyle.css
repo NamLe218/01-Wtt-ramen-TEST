@@ -1227,7 +1227,7 @@ footer a:hover { color: white; }
 }
 
 .qr-box {
-  width: clamp(100px, 25vw, 250px); /* min | fluid | max */
+  width: clamp(100%, 25vw, 250%); /* min | fluid | max */
   margin: 0 auto;
 }
 
