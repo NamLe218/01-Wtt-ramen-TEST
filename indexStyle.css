@@ -1226,13 +1226,9 @@ footer a:hover { color: white; }
   .nav-links a   { padding: 5px 10px; font-size: 11px; }
 }
 
-.qr-box {
-  width: clamp(100%, 25vw, 250%); /* min | fluid | max */
-  margin: 0 auto;
-}
-
 .qr-box img {
-  width: 100%;
-  height: auto;
+  width: 200%;
+  height: 150%;
+  object-fit: contain;
   display: block;
 }
