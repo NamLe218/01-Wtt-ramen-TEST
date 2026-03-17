@@ -1225,3 +1225,10 @@ footer a:hover { color: white; }
   .board-columns { grid-template-columns: 1fr; }
   .nav-links a   { padding: 5px 10px; font-size: 11px; }
 }
+
+.qr-box img {
+  width: 200%;
+  height: 150%;
+  object-fit: contain;
+  display: block;
+}
