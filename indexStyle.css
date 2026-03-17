@@ -1226,9 +1226,29 @@ footer a:hover { color: white; }
   .nav-links a   { padding: 5px 10px; font-size: 11px; }
 }
 
+.qr-box {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
 .qr-box img {
-  width: 200%;
-  height: 150%;
+  width: 100%;
+  height: auto;
   object-fit: contain;
   display: block;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .qr-box {
+    max-width: 220px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .qr-box {
+    max-width: 160px;
+  }
 }
